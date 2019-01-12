@@ -26,9 +26,8 @@ This is the types of algorithms used during trainning:
 - Standard Deep Q-Netowrk + Dueling + Double (DDQN + Dueling)
 
 I used **8 different agents configurations** as you can see on the image below.
-![Alt Text][logo].
 
-![Agents Configuration](images/agents-configuration.png)
+![Agents Configuration](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agents-configuration.PNG)
 
 Other configurations for the Deep Q-Network method was **the same for every agent.** Like those:
 EPS Start = 1
@@ -55,7 +54,7 @@ Training Plot
 
 Results
 ![Alt Text][agentV1Result].
-[agentV1Result]: images/agentV1result.png "Agent V1 Results"
+[agentV1Result]: https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG "Agent V1 Results"
 
 Result Plot
 
