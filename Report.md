@@ -28,7 +28,7 @@ This is the types of algorithms used during trainning:
 I used **8 different agents configurations** as you can see on the image below.
 ![Alt Text][logo].
 
-[logo]: images/agents-configuration.png "Title"
+![Agents Configuration](images/agents-configuration.png)
 
 Other configurations for the Deep Q-Network method was **the same for every agent.** Like those:
 EPS Start = 1
