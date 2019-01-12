@@ -50,13 +50,17 @@ Configuration
 
 ![Agent V1Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1setup.PNG)
 
-Training Plot HERE
+Training Plot
+
+![Agent V1 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1trainPlot.PNG)
 
 Results
 
 ![Agent V1Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG)
 
 Result Plot
+
+![Agent V2 Result Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1testPlot.PNG)
 
 This agent was the worst in Test mode after trainning.
 
@@ -68,11 +72,15 @@ Configuration
 
 Training Plot
 
+![Agent V2 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2trainPlot.PNG)
+
 Results
 
 ![Agent V2Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2result.PNG)
 
 Result Plot
+
+![Agent V2 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2testPlot.PNG)
 
 This agent was fastest one to beat the goal.
 
@@ -84,11 +92,15 @@ Configuration
 
 Training Plot
 
+![Agent V3 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3trainPlot.PNG)
+
 Results
 
 ![Agent V3Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3result.PNG)
 
 Result Plot
+
+![Agent V3 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3testPlot.PNG)
 
 This agent has the best average in Test mode after trainning.
 
@@ -100,11 +112,15 @@ Configuration
 
 Training Plot
 
+![Agent V4 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV4trainPlot.PNG)
+
 Results
 
 ![Agent V4Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV4result.PNG)
 
 Result Plot
+
+![Agent V4 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV4testPlot.PNG)
 
 This agent has the worst average in Trainning mode.
 
@@ -116,11 +132,15 @@ Configuration
 
 Training Plot
 
+![Agent V5 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV5trainPlot.PNG)
+
 Results
 
 ![Agent V5Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV5result.PNG)
 
 Result Plot
+
+![Agent V5 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV5testPlot.PNG)
 
 This agent was to slowest to beat the goal.
 
@@ -132,11 +152,15 @@ Configuration
 
 Training Plot
 
+![Agent V6 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV6trainPlot.PNG)
+
 Results
 
 ![Agent V6Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV6result.PNG)
 
 Result Plot
+
+![Agent V6 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV6testPlot.PNG)
 
 This agent has the best average in Trainning mode.
 
@@ -148,11 +172,15 @@ Configuration
 
 Training Plot
 
+![Agent V7 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV7trainPlot.PNG)
+
 Results
 
 ![Agent V7Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV7result.PNG)
 
 Result Plot
+
+![Agent V7 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV7testPlot.PNG)
 
 **Agent V8**
 
@@ -162,11 +190,15 @@ Configuration
 
 Training Plot
 
+![Agent V8 Train Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV8trainPlot.PNG)
+
 Results
 
 ![Agent V8Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV8result.PNG)
 
 Result Plot
+
+![Agent V8 Test Plot](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV8testPlot.PNG)
 
 **Final conclusions**
 Getting all the agents together we can make some very nice conclusions.
