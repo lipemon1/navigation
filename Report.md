@@ -79,11 +79,13 @@ This agent was fastest one to beat the goal.
 **Agent V3**
 
 Configuration
+
 ![Agent V3Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3setup.PNG)
 
 Training Plot
 
 Results
+
 ![Agent V3Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3result.PNG)
 
 Result Plot
@@ -171,9 +173,9 @@ Getting all the agents together we can make some very nice conclusions.
 
 ![Agents Results](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agents-configuration-result.png)
 
-For example:
-    - All the agents that used EPS Decay = 0.95 were faster to get to the goal of 13.00 as score average.
-    - The agent with the best average during training was different from the agent with best average during testing.
+For example...
+   - All the agents that used EPS Decay = 0.95 were faster to get to the goal of 13.00 as score average.
+   - The agent with the best average during training was different from the agent with best average during testing.
 ***
 ### Today we go for bananas, tomorrow for the world!
 After seeing the result and make some conclusions of course there're space to improve the whole algorithm. Here is the list with some modification I want to make as soon as possible.
