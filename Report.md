@@ -47,12 +47,12 @@ Here we can see the result for each agent trainned and tested.
 **Agent V1**
 
 Configuration
-![Agent V1 Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1setup.PNG)
+![Agent V1Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1setup.PNG)
 
 Training Plot HERE
 
 Results
-![Agent V1 Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG)
+![Agent V1Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG)
 
 Result Plot
 
@@ -61,14 +61,12 @@ This agent was the worst in Test mode after trainning.
 **Agent V2**
 
 Configuration
-![Alt Text][agentV2Setup].
-[agentV2Setup]: images/agentV2setup.png "Agent V2 Configuration"
+![Agent V2Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV2Result].
-[agentV2Result]: images/agentV2result.png "Agent V2 Results"
+![Agent V2Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2result.PNG)
 
 Result Plot
 
@@ -77,14 +75,12 @@ This agent was fastest one to beat the goal.
 **Agent V3**
 
 Configuration
-![Alt Text][agentV3setup].
-[agentV3setup]: images/agentV3setup.png "Agent V3 Configuration"
+![Agent V3Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV3Result].
-[agentV3Result]: images/agentV3Result.png "Agent V3 Results"
+![Agent V3Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV3result.PNG)
 
 Result Plot
 
