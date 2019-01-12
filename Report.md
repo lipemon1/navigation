@@ -47,14 +47,12 @@ Here we can see the result for each agent trainned and tested.
 **Agent V1**
 
 Configuration
-![Alt Text][agentV1Setup].
-[agentV1Setup]: images/agentV1setup.png "Agent V1 Configuration"
+![Agent V1 Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1setup.PNG)
 
-Training Plot
+Training Plot HERE
 
 Results
-![Alt Text][agentV1Result].
-[agentV1Result]: https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG "Agent V1 Results"
+![Agent V1 Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG)
 
 Result Plot
 
