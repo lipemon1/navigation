@@ -30,16 +30,16 @@ I used **8 different agents configurations** as you can see on the image below.
 ![Agents Configuration](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agents-configuration.PNG)
 
 Other configurations for the Deep Q-Network method was **the same for every agent.** Like those:
-EPS Start = 1
-EPS End = 0.02
-Episodes for trainning = 1000
-Episodes for test the saved agent = 10
+ - EPS Start = 1
+ - EPS End = 0.02
+ - Episodes for trainning = 1000
+ - Episodes for test the saved agent = 10
 
 Other configuration inside **Agent class**:
-replay buffer size = int(1e5)
-Minibatch size = 64
-Discount factor = 0.99
-Leraning rate = 5e-4
+ - replay buffer size = int(1e5)
+ - Minibatch size = 64
+ - Discount factor = 0.99
+ - Leraning rate = 5e-4
 
 Here we can see the result for each agent trainned and tested.
 
