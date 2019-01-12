@@ -47,11 +47,13 @@ Here we can see the result for each agent trainned and tested.
 **Agent V1**
 
 Configuration
+
 ![Agent V1Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1setup.PNG)
 
 Training Plot HERE
 
 Results
+
 ![Agent V1Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV1result.PNG)
 
 Result Plot
@@ -61,11 +63,13 @@ This agent was the worst in Test mode after trainning.
 **Agent V2**
 
 Configuration
+
 ![Agent V2Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2setup.PNG)
 
 Training Plot
 
 Results
+
 ![Agent V2Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV2result.PNG)
 
 Result Plot
@@ -89,14 +93,14 @@ This agent has the best average in Test mode after trainning.
 **Agent V4**
 
 Configuration
-![Alt Text][agentV4setup].
-[agentV4setup]: images/agentV4setup.png "Agent V4 Configuration"
+
+![Agent V4Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV4setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV4Result].
-[agentV4Result]: images/agentV4Result.png "Agent V4 Results"
+
+![Agent V4Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV4result.PNG)
 
 Result Plot
 
@@ -105,14 +109,14 @@ This agent has the worst average in Trainning mode.
 **Agent V5**
 
 Configuration
-![Alt Text][agentV5setup].
-[agentV5setup]: images/agentV5setup.png "Agent V5 Configuration"
+
+![Agent V5Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV5setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV5Result].
-[agentV5Result]: images/agentV5Result.png "Agent V5 Results"
+
+![Agent V5Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV5result.PNG)
 
 Result Plot
 
@@ -121,14 +125,14 @@ This agent was to slowest to beat the goal.
 **Agent V6** - Best average in Trainning mode
 
 Configuration
-![Alt Text][agentV6setup].
-[agentV6setup]: images/agentV6setup.png "Agent V6 Configuration"
+
+![Agent V6Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV6setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV6Result].
-[agentV6Result]: images/agentV6Result.png "Agent V6 Results"
+
+![Agent V6Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV6result.PNG)
 
 Result Plot
 
@@ -137,36 +141,35 @@ This agent has the best average in Trainning mode.
 **Agent V7**
 
 Configuration
-![Alt Text][agentV7setup].
-[agentV7setup]: images/agentV7setup.png "Agent V7 Configuration"
+
+![Agent V7Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV7setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV7Result].
-[agentV7Result]: images/agentV7Result.png "Agent V7 Results"
+
+![Agent V7Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV7result.PNG)
 
 Result Plot
 
 **Agent V8**
 
 Configuration
-![Alt Text][agentV8setup].
-[agentV8setup]: images/agentV8setup.png "Agent V8 Configuration"
+
+![Agent V8Setup](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV8setup.PNG)
 
 Training Plot
 
 Results
-![Alt Text][agentV8Result].
-[agentV8Result]: images/agentV8Result.png "Agent V8 Results"
+
+![Agent V8Result](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agentV8result.PNG)
 
 Result Plot
 
 **Final conclusions**
 Getting all the agents together we can make some very nice conclusions.
 
-![Alt Text][agentsResult].
-[agentsResult]: images/agents-configuration-result.png "Title"
+![Agents Results](https://raw.githubusercontent.com/lipemon1/navigation/master/images/agents-configuration-result.png)
 
 For example:
     - All the agents that used EPS Decay = 0.95 were faster to get to the goal of 13.00 as score average.
