@@ -9,13 +9,43 @@ First I started trying to understand the Agent and Model classes from Deep Reinf
 
 After I made it work I started to looking for ways to use Double Deep Q-Networks, Dueling and Experienced Replay. First I read the articles suggested during the classes. When I finished my mind was half blowed because it was so cool and the other half because I didn't understand all of it. So I started to look for other people that made the same course and found one guy that literally showed me the path to light.
 
-Man, you are the best.
+Tommy Tracey, you are the best.
 
-Here it's solution repository for the same challenge.
+[Here it's repository for the same challenge.](https://github.com/tommytracey/DeepRL-P1-Navigation)
 
 After using some parts of this guy I could make the replay buffer work properly, the same for Double Deep Q-Networks and Dueling agents. Really, this guy is like a Angel.
 
 This was my journey over the code in a brief but now, let's go to the beautiful part. How my final structure is working.
+
+### Deep Q-Network (Standard)
+Once you have a network you can find the bests weights for the function F(s,a,w) ≈ Q(s,s) , using this we get the best Q-function.
+
+The network used on this project has:
+- 3 connected layers with:
+	- Layer 1: 64 nodes
+	- Layer 2: 64 nodes
+	- Layer 3: 4 nodes
+
+For the inputs instead of feed some batch I get a random sample from saved experiences. But the code for this approach I used from the [Tommy Tracey repository](https://github.com/tommytracey/DeepRL-P1-Navigation).
+
+### Double Deep Q-Network (DDQN)
+The Deep Q-Network works very well but when you don't have a large number of experiences, the Q-function native of Deep Q-Network will end up following a wrong tend because it can't evaluate the value selected.
+
+This problem can be overcome using DoubleQ-Learning, where we have parameters for choosing the best action and other parameters to evaluate if the selected action is actually good enough.
+
+To see the implementation, go to the `agent.py` file.
+
+### Dueling Agents
+If we analyze all the states and actions during the experiments we'll see that the state doesn't change a lot but on the other hand, the actions could be very volatile.  So make sense we treat the function to achieve each kind of function in different ways.
+
+So this approach combines two different estimates:
+ - First one: estimate the value function
+ - Second one: estimate the advantage for each action
+
+Great, now we have to different estimates but we also want to know if our actions are good enough for our states that's why we combine the result between then to measure the impact each action has on each state.
+
+To see the implementation, go to the `model.py` file.
+
 ***
 ## Rewards. Hell Yeah!
 ### Configuration used for trainning
