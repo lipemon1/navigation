@@ -3,10 +3,12 @@ import random
 from collections import namedtuple, deque
 import torch
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
 class ReplayBuffer:
     """Fixed-size buffer to store experience tuples."""
 
-    def __init__(self, action_size, buffer_size, batch_size, seed, targetDevice):
+    def __init__(self, action_size, buffer_size, batch_size, seed):
         """Initialize a ReplayBuffer object.
         Params
         ======
@@ -14,7 +16,6 @@ class ReplayBuffer:
             buffer_size (int): maximum size of buffer
             batch_size (int): size of each training batch
             seed (int): random seed
-            targetDevice (str): the target device name
         """
         self.action_size = action_size
         self.memory = deque(maxlen=buffer_size)
